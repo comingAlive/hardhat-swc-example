@@ -1,6 +1,6 @@
 # Hardhat + SWC + TypeChain Example
 
-The fastest, typed Hardhat setup.
+Fast and typed Hardhat setup.
 
 ## How to use
 
