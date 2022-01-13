@@ -1,5 +1,4 @@
 import "@nomiclabs/hardhat-etherscan";
-
 import "@nomiclabs/hardhat-waffle";
 import "@typechain/hardhat";
 import { config as dotEnvConfig } from "dotenv";
@@ -13,13 +12,13 @@ const RPC_URL = process.env.RPC_URL;
 const config: HardhatUserConfig = {
   defaultNetwork: "localhost",
   solidity: {
-    compilers: [{ version: "0.8.4", settings: {} }],
+    compilers: [{ version: "0.8.11", settings: {} }],
   },
   networks: {
     hardhat: {
       forking: {
         url: RPC_URL!,
-        blockNumber: 8820205,
+        // blockNumber: 8820205,
       },
     },
   },
